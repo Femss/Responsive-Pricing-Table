@@ -1,0 +1,70 @@
+body, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.Pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    
+}
+.price-card {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.price-card h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.price-card .price {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.price-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.price-card ul li {
+    margin-bottom: 10px;
+}
+
+.price-card button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.price-card:hover {
+    transform: translateY(20px);
+}
+
+.price-card.recommended {
+    border: 2px solid gray;
+}
+
+.price-card.recommended h2 {
+    color: slategray;
+}
